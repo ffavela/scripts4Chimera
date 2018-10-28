@@ -1,0 +1,11 @@
+To install;
+
+1) mkdir ~/.myPrograms (if it doesn't already exist)
+2) cd ~/.myPrograms
+3) ln -s route/directory/for/format4SpreadSheet.py format4SpreadSheet
+4) Add the following line at the end of your .bashrc (or .zshrc ...):
+
+             export PATH=$PATH:~/.myPrograms
+
+Any new terminal (or after sourcing the current one) should be able to
+find "format4SpreadSheet" when typed.
