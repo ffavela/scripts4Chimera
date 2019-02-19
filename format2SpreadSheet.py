@@ -2,6 +2,7 @@
 
 import sys
 import os
+from os.path import basename #For printing nicely argv[0]
 
 gpltDir="files4Gnuplot/"
 newListOfEnergD=[] #Just avoiding errors
@@ -242,7 +243,8 @@ def getListOfKeys(myDatList):
 #     pass
 
 def printHelp(argv,hBool=False):
-    print("usage: %s chFiles... [options] #use -h for help" % argv[0])
+    print("usage: %s chFiles... [options] #use -h for help"\
+          % basename(argv[0]))
     if hBool:
         print("options:")
         print("\t-h | --help:\t displays this menu.")
