@@ -16,8 +16,6 @@ teles_num=[16, 16, 24, 24, 32, 32, 40, 40, 40, 40, 48, 48, 48, 48, 48,
 accOpts=["-c", "-C", "-s", "--prefixShift","-h","--help","--range"]
 ignoreOp4Header=["--prefixShift","-h","--help","--range"]
 
-
-
 def getPreShiftFromCMDL(myOptDict,argv):
     """Multipuspose function returns False if vals not ok and the vals if
 all is fine"""
