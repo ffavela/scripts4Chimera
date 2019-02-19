@@ -255,7 +255,7 @@ def printHelp(argv,hBool=False):
 def main(argv):
     myRange=False
     # myMinIntV,myMaxIntV=660,669
-    myMinIntV,myMaxIntV=0,1191
+    myMinIntV,myMaxIntV=0,1192
 
     myOptDict=getMyOptDict(argv)
     if not quickOptParse(argv,myOptDict):
